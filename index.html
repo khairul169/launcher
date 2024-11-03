@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>✦ Eclair ✦</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+
+<body>
+  <div id="app">
+    <canvas class="background" id="bg-hash"></canvas>
+    <div class="background bg-no-repeat bg-cover bg-center z-[1]" id="bg-main" style="opacity: 0;"></div>
+
+    <form action="https://www.google.com/search" method="get" class="search-bar" style="opacity: 0;">
+      <img src="/images/google_logo.svg" class="w-8 h-8 ml-1.5 md:ml-2" alt="google" />
+      <input name="q" placeholder="Search" autofocus />
+    </form>
+
+    <div class="quick-launch" style="opacity: 0;">
+      <button type="button" title="Open Launcher" class="open-launcher"><img src="/images/chevron-up.svg"
+          class="transition-transform" alt="open launcher" /></button>
+      <div class="items"></div>
+    </div>
+
+    <div class="launcher" style="opacity: 0;">
+      <div class="sheet">
+        <div class="title flex items-center gap-4 ml-4 md:ml-0" role="button">
+          <img src="/images/layout-panel-left.svg" class="w-6 h-6" alt="launcher" />
+          <p class="text-2xl font-medium">Apps</p>
+        </div>
+        <div class="items mt-4"></div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
