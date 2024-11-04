@@ -6,16 +6,14 @@ export const initQuickLaunch = () => {
     throw new Error("Could not find quick-launch container");
   }
 
-  const pinnedItems = launcherItems.filter((item) => item.pinned);
-
-  container.innerHTML = pinnedItems
-    .filter((item) => item.disabled !== true)
+  container.innerHTML = launcherItems
+    .filter((item) => item.pinned && item.disabled !== true)
     .map((item) => {
       return `
-      <a href="${item.href}" class="item" rel="noopener noreferrer" title="${item.name}">
-        <img src="${item.icon}" alt="${item.name}" />
-      </a>
-    `;
+        <a href="${item.href}" class="item" rel="noopener noreferrer" title="${item.name}">
+          <img src="${item.icon}" alt="${item.name}" />
+        </a>
+      `;
     })
     .join("");
 };

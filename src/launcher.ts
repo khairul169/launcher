@@ -11,7 +11,7 @@ export const launcherItems: LauncherItem[] = [
   },
   {
     name: "Excalidraw",
-    href: "https://excalidraw.com/",
+    href: "https://draw.rul.sh",
     icon: "https://excalidraw.com/apple-touch-icon.png",
   },
   {
@@ -44,7 +44,7 @@ export const launcherItems: LauncherItem[] = [
   {
     name: "Flatnotes",
     href: "http://100.64.0.3:8124",
-    icon: "https://github.com/dullage/flatnotes/blob/develop/client/public/android-chrome-192x192.png?raw=true",
+    icon: "https://raw.githubusercontent.com/dullage/flatnotes/refs/heads/develop/client/public/android-chrome-192x192.png",
   },
   {
     name: "Gitea",
@@ -157,15 +157,13 @@ export const launcherItems: LauncherItem[] = [
   },
   {
     name: "Incus UI",
-    href: "https://164.152.166.61:8443/",
+    href: "https://srv:8443/",
     icon: "https://linuxcontainers.org/static/img/containers.small.png",
-    disabled: true,
   },
   {
     name: "Incus UI (Armbian)",
     href: "https://armbian:8443",
     icon: "https://linuxcontainers.org/static/img/containers.small.png",
-    disabled: true,
   },
 ];
 
