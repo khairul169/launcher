@@ -81,7 +81,7 @@ export const launcherItems: LauncherItem[] = [
   },
   {
     name: "Code Server",
-    href: "http://10.0.0.100:8080/login",
+    href: "https://code.rul.sh",
     icon: "https://raw.githubusercontent.com/edent/SuperTinyIcons/d2d4dadd66db9b3ff0cd9297e2c77f44c0e0808e/images/svg/visualstudiocode.svg",
     pinned: true,
   },
