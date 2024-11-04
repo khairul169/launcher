@@ -1,12 +1,32 @@
 export const launcherItems: LauncherItem[] = [
   {
+    name: "Facebook",
+    href: "https://www.facebook.com/",
+    icon: "https://raw.githubusercontent.com/walkxcode/dashboard-icons/07a06d893e901fda965ba10f39d7aa7a3a18ea0d/svg/facebook.svg",
+  },
+  {
+    name: "YouTube",
+    href: "https://www.youtube.com/",
+    icon: "https://raw.githubusercontent.com/edent/SuperTinyIcons/d2d4dadd66db9b3ff0cd9297e2c77f44c0e0808e/images/svg/youtube.svg ",
+  },
+  {
+    name: "Excalidraw",
+    href: "https://excalidraw.com/",
+    icon: "https://excalidraw.com/apple-touch-icon.png",
+  },
+  {
+    name: "WhatsApp Web",
+    href: "https://web.whatsapp.com/",
+    icon: "https://raw.githubusercontent.com/edent/SuperTinyIcons/d2d4dadd66db9b3ff0cd9297e2c77f44c0e0808e/images/svg/whatsapp.svg",
+  },
+  {
     name: "Jellyfin",
     href: "http://10.0.0.101:8096/web",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/jellyfin.svg",
     pinned: true,
   },
   {
-    name: "Musicfin",
+    name: "Music",
     href: "http://armbian:8096/web",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/jellyfin.svg",
   },
@@ -43,13 +63,13 @@ export const launcherItems: LauncherItem[] = [
     disabled: true,
   },
   {
-    name: "File Browser",
+    name: "NAS Files",
     href: "http://10.0.0.101:9005/files",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/filebrowser.svg",
     pinned: true,
   },
   {
-    name: "File Browser (Armbian)",
+    name: "Cloud Files",
     href: "https://fm.rul.sh",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/filebrowser.svg",
   },
@@ -57,6 +77,13 @@ export const launcherItems: LauncherItem[] = [
     name: "Change Detection",
     href: "https://chgdetect.rul.sh/",
     icon: "https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/changedetectionio/static/images/avatar-256x256.png",
+    disabled: true,
+  },
+  {
+    name: "Code Server",
+    href: "http://10.0.0.100:8080/login",
+    icon: "https://raw.githubusercontent.com/edent/SuperTinyIcons/d2d4dadd66db9b3ff0cd9297e2c77f44c0e0808e/images/svg/visualstudiocode.svg",
+    pinned: true,
   },
   {
     name: "Vaultwarden",
