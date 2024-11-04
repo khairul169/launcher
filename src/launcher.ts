@@ -183,6 +183,7 @@ const title = launcher.querySelector(".title") as HTMLButtonElement;
 const itemContainer = launcher.querySelector(".items") as HTMLDivElement;
 
 let isLauncherOpen = false;
+let startY = 0;
 
 export const openLauncher = () => {
   launcher.classList.add("open");
@@ -196,17 +197,26 @@ export const closeLauncher = () => {
   isLauncherOpen = false;
 };
 
-const onScroll = (e: WheelEvent) => {
-  if (e.deltaY > 10 && !isLauncherOpen) {
+const onScroll = (deltaY: number) => {
+  if (deltaY > 10 && !isLauncherOpen) {
     openLauncher();
     return;
   }
 
   const curScroll = launcher.scrollTop;
-  if (e.deltaY < -50 && isLauncherOpen && curScroll <= 1) {
+  if (deltaY < -50 && isLauncherOpen && curScroll <= 1) {
     closeLauncher();
     return;
   }
+};
+
+const onTouchStart = (e: TouchEvent) => {
+  startY = e.touches[0].clientY;
+};
+
+const onTouchMove = (e: TouchEvent) => {
+  const curY = e.touches[0].clientY;
+  onScroll(startY - curY);
 };
 
 export const initLauncher = () => {
@@ -226,7 +236,9 @@ export const initLauncher = () => {
 
   title.addEventListener("click", closeLauncher);
   openBtn.addEventListener("click", openLauncher);
-  document.addEventListener("wheel", onScroll);
+  document.addEventListener("wheel", (e) => onScroll(e.deltaY));
+  document.addEventListener("touchstart", onTouchStart);
+  document.addEventListener("touchmove", onTouchMove);
 
   launcher.addEventListener("click", (e) => {
     if (e.target === launcher) {
