@@ -9,10 +9,15 @@ export const launcherItems: LauncherItem[] = [
     href: "https://www.youtube.com/",
     icon: "https://raw.githubusercontent.com/edent/SuperTinyIcons/d2d4dadd66db9b3ff0cd9297e2c77f44c0e0808e/images/svg/youtube.svg ",
   },
+  // {
+  //   name: "Excalidraw",
+  //   href: "https://draw.rul.sh",
+  //   icon: "https://excalidraw.com/apple-touch-icon.png",
+  // },
   {
-    name: "Excalidraw",
-    href: "https://draw.rul.sh",
-    icon: "https://excalidraw.com/apple-touch-icon.png",
+    name: "Eraser",
+    href: "https://app.eraser.io/auth/sign-in",
+    icon: "https://app.eraser.io/favicon.svg",
   },
   {
     name: "WhatsApp Web",
@@ -25,11 +30,11 @@ export const launcherItems: LauncherItem[] = [
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/jellyfin.svg",
     pinned: true,
   },
-  {
-    name: "Music",
-    href: "http://armbian:8096/web",
-    icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/jellyfin.svg",
-  },
+  // {
+  //   name: "Music",
+  //   href: "http://armbian:8096/web",
+  //   icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/jellyfin.svg",
+  // },
   {
     name: "Youtube2MP3",
     href: "http://yt2mp3.home.ip",
@@ -41,11 +46,11 @@ export const launcherItems: LauncherItem[] = [
     icon: "https://memos.rul.sh/apple-touch-icon.png",
     pinned: true,
   },
-  {
-    name: "Flatnotes",
-    href: "http://100.64.0.3:8124",
-    icon: "https://raw.githubusercontent.com/dullage/flatnotes/refs/heads/develop/client/public/android-chrome-192x192.png",
-  },
+  // {
+  //   name: "Flatnotes",
+  //   href: "http://100.64.0.3:8124",
+  //   icon: "https://raw.githubusercontent.com/dullage/flatnotes/refs/heads/develop/client/public/android-chrome-192x192.png",
+  // },
   {
     name: "Gitea",
     href: "https://git.rul.sh",
@@ -56,12 +61,12 @@ export const launcherItems: LauncherItem[] = [
     href: "https://gotify.rul.sh",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/gotify.svg",
   },
-  {
-    name: "AriaNg",
-    href: "http://ariang.home.ip/",
-    icon: "https://raw.githubusercontent.com/mayswind/AriaNg/master/src/tileicon.png",
-    disabled: true,
-  },
+  // {
+  //   name: "AriaNg",
+  //   href: "http://ariang.home.ip/",
+  //   icon: "https://raw.githubusercontent.com/mayswind/AriaNg/master/src/tileicon.png",
+  //   disabled: true,
+  // },
   {
     name: "NAS Files",
     href: "http://10.0.0.101:9005/files",
@@ -93,7 +98,7 @@ export const launcherItems: LauncherItem[] = [
   },
   {
     name: "Garage WebUI",
-    href: "http://10.0.0.101:3909/buckets",
+    href: "http://srv:3909/buckets",
     icon: "https://garagehq.deuxfleurs.fr/icons/apple-touch-icon.png",
     disabled: false,
   },
@@ -102,11 +107,11 @@ export const launcherItems: LauncherItem[] = [
     href: "http://pi.hole/admin",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/pi-hole.svg",
   },
-  {
-    name: "Headscale",
-    href: "https://headscale.rul.sh/web/devices.html",
-    icon: "https://raw.githubusercontent.com/juanfont/headscale/refs/heads/main/docs/logo/headscale3-dots.svg",
-  },
+  // {
+  //   name: "Headscale",
+  //   href: "https://headscale.rul.sh/web/devices.html",
+  //   icon: "https://raw.githubusercontent.com/juanfont/headscale/refs/heads/main/docs/logo/headscale3-dots.svg",
+  // },
   {
     name: "Nginx Proxy Manager",
     href: "http://nginx-pm.home.ip/",
@@ -126,6 +131,11 @@ export const launcherItems: LauncherItem[] = [
     name: "phpMyAdmin",
     href: "http://pma.home.ip/",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/phpmyadmin.svg",
+  },
+  {
+    name: "Duplicati",
+    href: "https://duplicati.rul.sh/",
+    icon: "https://duplicati.rul.sh/ngax/favicon/android-icon-192x192.png",
   },
   {
     name: "Mongo Express",
@@ -150,21 +160,21 @@ export const launcherItems: LauncherItem[] = [
     href: "https://pve.rul.sh/",
     icon: "https://www.proxmox.com/apple-touch-icon.png",
   },
-  {
-    name: "LXConsole",
-    href: "https://lxc.rul.sh/",
-    icon: "https://github.com/PenningLabs/lxconsole/raw/refs/heads/main/lxconsole/static/assets/img/logo-light.svg",
-  },
+  // {
+  //   name: "LXConsole",
+  //   href: "https://lxc.rul.sh/",
+  //   icon: "https://github.com/PenningLabs/lxconsole/raw/refs/heads/main/lxconsole/static/assets/img/logo-light.svg",
+  // },
   {
     name: "Incus UI",
     href: "https://srv:8443/",
     icon: "https://linuxcontainers.org/static/img/containers.small.png",
   },
-  {
-    name: "Incus UI (Armbian)",
-    href: "https://armbian:8443",
-    icon: "https://linuxcontainers.org/static/img/containers.small.png",
-  },
+  // {
+  //   name: "Incus UI (Armbian)",
+  //   href: "https://armbian:8443",
+  //   icon: "https://linuxcontainers.org/static/img/containers.small.png",
+  // },
 ];
 
 type LauncherItem = {
