@@ -30,6 +30,12 @@ export const launcherItems: LauncherItem[] = [
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/jellyfin.svg",
     pinned: true,
   },
+  {
+    name: "Komga",
+    href: "http://10.0.0.101:25600",
+    icon: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/a0aeb14f4bd3e4c56b0858cc6554d9246b28d7a8/svg/komga.svg",
+    pinned: false,
+  },
   // {
   //   name: "Music",
   //   href: "http://armbian:8096/web",
