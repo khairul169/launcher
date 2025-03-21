@@ -47,6 +47,11 @@ export const launcherItems: LauncherItem[] = [
     icon: "https://git.rul.sh/khairul169/Go-YT2MP3/raw/branch/main/ui/public/android-chrome-512x512.png",
   },
   {
+    name: "Notes",
+    href: "https://notes.rul.sh",
+    icon: "https://notes.rul.sh/android-chrome-192x192.png",
+  },
+  {
     name: "Memos",
     href: "https://memos.rul.sh",
     icon: "https://memos.rul.sh/apple-touch-icon.png",
