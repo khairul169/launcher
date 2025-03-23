@@ -32,7 +32,7 @@ export const launcherItems: LauncherItem[] = [
   },
   {
     name: "Komga",
-    href: "http://10.0.0.101:25600",
+    href: "https://komga.local.rul.my",
     icon: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/a0aeb14f4bd3e4c56b0858cc6554d9246b28d7a8/svg/komga.svg",
     pinned: false,
   },
