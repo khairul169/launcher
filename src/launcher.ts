@@ -43,18 +43,18 @@ export const launcherItems: LauncherItem[] = [
   // },
   {
     name: "Youtube2MP3",
-    href: "http://yt2mp3.home.ip",
+    href: "https://yt2mp3.local.rul.my",
     icon: "https://git.rul.sh/khairul169/Go-YT2MP3/raw/branch/main/ui/public/android-chrome-512x512.png",
   },
   {
     name: "Notes",
-    href: "https://notes.rul.sh",
-    icon: "https://notes.rul.sh/android-chrome-192x192.png",
+    href: "https://notes.rul.my",
+    icon: "https://notes.rul.my/android-chrome-192x192.png",
   },
   {
     name: "Memos",
-    href: "https://memos.rul.sh",
-    icon: "https://memos.rul.sh/apple-touch-icon.png",
+    href: "https://memos.rul.my",
+    icon: "https://memos.rul.my/apple-touch-icon.png",
     pinned: true,
   },
   // {
@@ -64,29 +64,29 @@ export const launcherItems: LauncherItem[] = [
   // },
   {
     name: "Gitea",
-    href: "https://git.rul.sh",
+    href: "https://git.rul.my",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/gitea.svg",
   },
   {
     name: "Gotify",
-    href: "https://gotify.rul.sh",
+    href: "https://gotify.rul.my",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/gotify.svg",
   },
   // {
   //   name: "AriaNg",
-  //   href: "http://ariang.home.ip/",
+  //   href: "http://ariang.local.rul.my/",
   //   icon: "https://raw.githubusercontent.com/mayswind/AriaNg/master/src/tileicon.png",
   //   disabled: true,
   // },
   {
     name: "NAS Files",
-    href: "http://10.0.0.101:9005/files",
+    href: "https://files.local.rul.my/files",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/filebrowser.svg",
     pinned: true,
   },
   {
     name: "Cloud Files",
-    href: "https://fm.rul.sh",
+    href: "https://fm.rul.my",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/filebrowser.svg",
   },
   {
@@ -103,15 +103,14 @@ export const launcherItems: LauncherItem[] = [
   },
   {
     name: "Vaultwarden",
-    href: "https://vw.rul.sh",
+    href: "https://vw.rul.my",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/vaultwarden.svg",
     pinned: true,
   },
   {
     name: "Garage WebUI",
-    href: "http://srv:3909/buckets",
+    href: "https://s3.rul.sh/admin/buckets",
     icon: "https://garagehq.deuxfleurs.fr/icons/apple-touch-icon.png",
-    disabled: false,
   },
   {
     name: "Pi-hole",
@@ -125,22 +124,22 @@ export const launcherItems: LauncherItem[] = [
   // },
   {
     name: "Nginx Proxy Manager",
-    href: "http://nginx-pm.home.ip/",
+    href: "https://nginx-pm.local.rul.my/",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/nginx-proxy-manager.svg",
   },
   {
     name: "Nginx UI",
-    href: "https://nginx-ui.rul.sh/",
+    href: "https://nginx-ui.rul.my/",
     icon: "https://nginxui.com/assets/icon.svg",
   },
   {
     name: "pgAdmin",
-    href: "http://pgadmin.home.ip/",
+    href: "https://pgadmin.local.rul.my/",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/pgadmin.svg",
   },
   {
     name: "phpMyAdmin",
-    href: "http://pma.home.ip/",
+    href: "https://pma.local.rul.my/",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/phpmyadmin.svg",
   },
   {
@@ -148,27 +147,27 @@ export const launcherItems: LauncherItem[] = [
     href: "https://duplicati.rul.sh/",
     icon: "https://duplicati.rul.sh/ngax/favicon/android-icon-192x192.png",
   },
-  {
-    name: "Mongo Express",
-    href: "http://home:27018/",
-    icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/mongodb.svg",
-    disabled: true,
-  },
-  {
-    name: "Hoppscotch",
-    href: "https://hopp.rul.sh/",
-    icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/hoppscotch.svg",
-    disabled: true,
-  },
-  {
-    name: "aaPanel",
-    href: "https://10.0.0.102:29760/590d1b7a",
-    icon: "https://www.aapanel.com/static/images/bt_logo.png",
-    disabled: true,
-  },
+  // {
+  //   name: "Mongo Express",
+  //   href: "http://home:27018/",
+  //   icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/mongodb.svg",
+  //   disabled: true,
+  // },
+  // {
+  //   name: "Hoppscotch",
+  //   href: "https://hopp.rul.sh/",
+  //   icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/hoppscotch.svg",
+  //   disabled: true,
+  // },
+  // {
+  //   name: "aaPanel",
+  //   href: "https://10.0.0.102:29760/590d1b7a",
+  //   icon: "https://www.aapanel.com/static/images/bt_logo.png",
+  //   disabled: true,
+  // },
   {
     name: "ProxmoxVE",
-    href: "https://pve.rul.sh/",
+    href: "https://pve.rul.my/",
     icon: "https://www.proxmox.com/apple-touch-icon.png",
   },
   // {
