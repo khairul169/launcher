@@ -26,7 +26,7 @@ export const launcherItems: LauncherItem[] = [
   },
   {
     name: "Jellyfin",
-    href: "http://10.0.0.101:8096/web",
+    href: "https://jellyfin.local.rul.my/web",
     icon: "https://github.com/walkxcode/dashboard-icons/raw/be82e22c418f5980ee2a13064d50f1483df39c8c/svg/jellyfin.svg",
     pinned: true,
   },
